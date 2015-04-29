@@ -43,14 +43,14 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<rake>, ["~> 0.8.7"])
       s.add_development_dependency(%q<rspec>, ["~> 2.0.0.beta.5"])
       s.add_development_dependency(%q<webrat>, ["~> 0.7.1"])
-      s.add_runtime_dependency(%q<haml>, ["~> 3.0.12"])
+      s.add_runtime_dependency(%q<haml>, ["~> 4.0"])
       s.add_runtime_dependency(%q<sinatra>, ["~> 1.0"])
     else
       s.add_dependency(%q<rack-test>, ["~> 0.5.4"])
       s.add_dependency(%q<rake>, ["~> 0.8.7"])
       s.add_dependency(%q<rspec>, ["~> 2.0.0.beta.5"])
       s.add_dependency(%q<webrat>, ["~> 0.7.1"])
-      s.add_dependency(%q<haml>, ["~> 3.0.12"])
+      s.add_dependency(%q<haml>, ["~> 4.0"])
       s.add_dependency(%q<sinatra>, ["~> 1.0"])
     end
   else
@@ -58,7 +58,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<rake>, ["~> 0.8.7"])
     s.add_dependency(%q<rspec>, ["~> 2.0.0.beta.5"])
     s.add_dependency(%q<webrat>, ["~> 0.7.1"])
-    s.add_dependency(%q<haml>, ["~> 3.0.12"])
+    s.add_dependency(%q<haml>, ["~> 4.0"])
     s.add_dependency(%q<sinatra>, ["~> 1.0"])
   end
 end
